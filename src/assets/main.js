@@ -13,3 +13,12 @@ async function fetchData (urlAPI){
     return data;
 }
 
+(async()=>{
+    try{
+        const videos = await fetchData(API);
+        let view = ``;
+    }catch{
+
+    }
+    
+})();
